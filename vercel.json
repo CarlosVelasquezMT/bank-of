@@ -5,10 +5,10 @@
     }
   },
   "env": {
-    "DATABASE_URL": "@database-url",
-    "POSTGRES_PRISMA_URL": "@postgres-prisma-url",
-    "POSTGRES_URL_NON_POOLING": "@postgres-url-non-pooling",
-    "JWT_SECRET": "@jwt-secret"
+    "DATABASE_URL": "@DATABASE_URL",
+    "POSTGRES_PRISMA_URL": "@DATABASE_URL",
+    "POSTGRES_URL_NON_POOLING": "@DATABASE_URL",
+    "JWT_SECRET": "@JWT_SECRET"
   },
   "build": {
     "env": {
